@@ -26,9 +26,11 @@ Other benefits include:
 ## Included in this repository:
 1. An image resizer/contrast (collab version)
 2. A PDF toolkit (collab version)
-3. Seaweed: Automated Resizer and Transcription Tester (collab version)
-4. Paginator (collab version)
-5. Transcribus API (command line version)
+3. Seaweed: Automated Resizer and Transcription Tester (collab version) - includes toggle cataloguer
+
+## What will be included in this repository
+5. Paginator (collab version)
+6. Transcribus API (command line version)
 
 
 
@@ -36,5 +38,17 @@ Other benefits include:
 Each item is fully commented, and its coded sections are segmented with explanation (this is why I find Collab very helpful) - these should provide sufficient explanation for how/where to input variable names, file paths, and other choices. You can either run cells sequentially one by one using each cells "run button" or simply press "Run All" at the top - if in Collab. These Collab versions - specifically those that are machine learning are only testers and a show of capabilities that a local machine would also have access to.
 
 (instructions will be updated if cmd prompt versions become possible - i.e. calling code into cmd prompt while still using T4 GPU, and then again if programs become entirely locally run)
+
+
+## Seaweed
+Seaweed is a very simple piece of code that allows you to utilise any of Ollama's library of machine learning models using the T4 GPU. All of these models are open source and can be assessed through the Ollama website. There are a few recommendations for testing already included in the document, which can place into the Model Candidates list. Multiple Candidates within this list means that secondary or tertiary candidates will only be used if the first in the list does not meet a minimum value of transcription detail (measured in characters found). Recommendation: Only ever have two candidates in the model candidates list: the one you are testing, and a standard control which you know either fails or succeeds repeatedly. The first in the list should be what you are testing.
+
+The issues with this pipeline which I haven't been able to fix: 
+- this is an out of the box tool, it therefore does not go through training on one specific document - however this does not mean that it is any less successful than Transcrikus and works quite similarly to any flagship model.
+- Transkribus however does trump Seaweed for measuring its success in metrics. This currently has no way of counting how many failures of recognition there are.
+- Open source models can be great, however they do come with added baggage of their often quite localised training culture - for example certain transcribing models have a proclivity to insert emoji's at moments - however this is arguably no worse than the hallucinations which will occur with any AI pest.
+
+
+
 
 
