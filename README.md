@@ -15,10 +15,10 @@ Currently two things limit the use of both Seaweed and the paginator. At this st
 
 The argument: If the Seaweed transcription pipeline and paginator are comparable to the performance of flagship models provided by JSTOR, or Transkribus then these subscriptions are worth far less than previously thought.
 
-If this is true, the suggested course of action might be: Divert funds which are used for subscriptions to browser based AI-usage (primarily llms) to building local hardware able to run open source marchine learning code (mainly slms, ocrs and vlms). The expected cost of this local hardware will be less than the cost of a single one-year subscription - including physical maintenance costs for a term of 4 years (estimated off of the cost of tier 3 JSTOR Stewardship Subscription).
+If this is true, the suggested course of action might be: Divert funds which are used for subscriptions to browser based AI-usage (primarily llms) to building local hardware able to run open source marchine learning code (mainly slms, ocrs and vlms). The expected cost of this local hardware will be less than the cost of a single one-year subscription - including hardware maintenance costs for a term of 3 years (estimated off of the cost of tier 3 JSTOR Stewardship Subscription).
 
 Other benefits include: 
-- Locating environmental impact of using AI tools within the Royal Society Premise's Energy/Heating impact.
+- Locating environmental impact of using AI tools within the RS Premise's Energy/Heating impact.
 - Data Privacy: reducing cloud-based data-handling means greater data security and safety.
 - Operations will not be dependent upon external providers - other than possible maintenance - though this will be neglible because these tools are not infrastructurally essential - and are not designed to be.
 
