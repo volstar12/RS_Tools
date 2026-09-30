@@ -26,7 +26,7 @@ Other benefits include:
 ## Included in this repository:
 1. An image resizer/contrast (collab version)
 2. A PDF toolkit (collab version)
-3. Seaweed: Automated Resizer and Transcription Tester (collab version) - includes toggle cataloguer
+3. Seaweed: Automated Resizer and Transcription Tester (collab version) - includes toggle cataloguer (but i found it too blasphemous to test on cataloguing or metadata generation)
 
 ## What will be included in this repository
 5. Paginator (collab version)
